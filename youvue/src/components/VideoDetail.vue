@@ -1,7 +1,7 @@
 <template>
-  <div v-if="video">
-    <div>
-      <iframe allowfullscreen :src="videoUrl" />
+  <div class="col-md-8" v-if="video">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" allowfullscreen :src="videoUrl" />
     </div>
     <div class="details">
       <h4>
